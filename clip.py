@@ -2,7 +2,7 @@ import torch
 import torch.nn.functional as F
 
 def clip_classification(image, class_list, top_k, clip_processor, clip_model, rank):
-    inputs = clip_processor(text=class_list, images=image, return_tensors="pt", padding=True).to(rank)
+    inputs = clip_processor(text=class_list, images=image, return_tensors="pt", padding=True)#.to(rank)
     outputs = clip_model(**inputs)
     logits_per_image = outputs.logits_per_image
     probs = logits_per_image.softmax(dim=1)
