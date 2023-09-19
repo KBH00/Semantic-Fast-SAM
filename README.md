@@ -25,10 +25,14 @@ python -m spacy download en_core_web_sm
 ```
 
 You need to download Fast-SAM model checkpoint in [here](https://drive.google.com/file/d/1l7l1VJmpD1nOsgiTXucTtYOpu3nE-rjh/view?usp=drive_link)\
-Put FastSAM.pt in weights directory\
+Put FastSAM.pt in weights directory
 
 
 ## Inference
 ```
 python scripts/main_ssa_engine.py --data_dir=data/<The name of your image> --out_dir=output --world_size=<choose GPU number>
 ```
+
+## Examples
+![Description of Image](https://github.com/KBH00/Semantic-Fast-SAM/issues/1#issue-1903302044)
+
