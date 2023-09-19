@@ -34,5 +34,5 @@ python scripts/main_ssa_engine.py --data_dir=data/<The name of your image> --out
 ```
 
 ## Examples
-![Description of Image](./images/dogs.png)
+![Description of Image](./images/dogs.jpg)
 
