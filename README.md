@@ -8,7 +8,7 @@ this Semantic-Fast-SAM is also inspired by Semantic-Segment-Anything(i.e.,SSA). 
 
 To install the required dependencies, run the following command:
 
-```bash
+'''bash
 git clone https://github.com/KBH00/Semantic-Fast-SAM.git
 cd Semantic-Fast-SAM
 conda env create -f environment.yaml
@@ -20,4 +20,4 @@ Put FastSAM.pt in weights directory\
 
 ## Inference
 
-python scripts/main_ssa_engine.py --data_dir=data/<The name of your image> --out_dir=output --world_size=<choose GPU number>  
+python scripts/main_ssa_engine.py --data_dir=data/<The name of your image> --out_dir=output --world_size=<choose GPU number>
