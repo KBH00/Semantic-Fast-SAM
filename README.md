@@ -34,5 +34,5 @@ python scripts/main_ssa_engine.py --data_dir=data/<The name of your image> --out
 ```
 
 ## Examples
-![Description of Image](https://github.com/KBH00/Semantic-Fast-SAM/issues/1#issue-1903302044)
+![Description of Image](./images/dogs.png)
 
