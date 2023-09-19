@@ -45,7 +45,7 @@ def postprocess_fastSAM(result, threshold=0.5):
         post_processed_result['segmentation']['size'] = list(result.orig_shape)  
 
         binary_mask = (masks[i] > threshold).type(torch.uint8)
-        rle = mask.encode(np.asfortranarray(binary_mask.cpu().numpy()))  # Call .cpu() before .numpy()
+        rle = mask.encode(np.asfortranarray(binary_mask.cpu().numpy()))  
         post_processed_result['segmentation']['counts'] = rle['counts']
         post_processed_result['area'] = mask.area(rle)
 
