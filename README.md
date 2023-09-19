@@ -10,14 +10,23 @@ To install the required dependencies, run the following command:
 
 ```bash
 git clone https://github.com/KBH00/Semantic-Fast-SAM.git
+```
+```
 cd Semantic-Fast-SAM
+```
+```
 conda env create -f environment.yaml
+```
+```
 conda activate sfs
+```
+```
 python -m spacy download en_core_web_sm
+```
 
 You need to download Fast-SAM model checkpoint in [here](https://drive.google.com/file/d/1l7l1VJmpD1nOsgiTXucTtYOpu3nE-rjh/view?usp=drive_link)\
 Put FastSAM.pt in weights directory\
-```
+
 
 ## Inference
 ```
