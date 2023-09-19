@@ -35,5 +35,15 @@ python scripts/main_ssa_engine.py --data_dir=data/<The name of your image> --out
 Or, you can just run main_ssa_engine.py
 
 ## Examples
-![Description of Image](./output/semantic.png)
+![Description of Image](./pngs/cat.png)
+
+![Description of Image](./pngs/dogs.png)
+
+## References
+
+Fast Segment Anything
+https://github.com/CASIA-IVA-Lab/FastSAM
+
+Semantic Segment Anything
+https://github.com/fudan-zvg/Semantic-Segment-Anything
 
