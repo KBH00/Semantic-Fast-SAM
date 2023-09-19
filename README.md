@@ -32,6 +32,7 @@ Put FastSAM.pt in weights directory
 ```
 python scripts/main_ssa_engine.py --data_dir=data/<The name of your image> --out_dir=output --world_size=<choose GPU number>
 ```
+Or, you can just run main_ssa_engine.py
 
 ## Examples
 ![Description of Image](./output/semantic.png)
