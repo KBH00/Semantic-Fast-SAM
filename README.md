@@ -24,7 +24,7 @@ conda activate sfs
 python -m spacy download en_core_web_sm
 ```
 
-You need to download Fast-SAM model checkpoint in [here][(https://drive.google.com/file/d/1l7l1VJmpD1nOsgiTXucTtYOpu3nE-rjh/view?usp=drive_link](https://drive.google.com/file/d/1m1sjY4ihXBU1fZXdQ-Xdj-mDltW-2Rqv/view)\
+You need to download Fast-SAM model checkpoint in [here][(https://drive.google.com/file/d/1l7l1VJmpD1nOsgiTXucTtYOpu3nE-rjh/view?usp=drive_link)]\
 Put FastSAM.pt in weights directory, mabye you should change the file name FastSAM-x.pt to FastSAM.pt
 
 
