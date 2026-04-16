@@ -1,6 +1,5 @@
 ## Semantic-Fast-SAM
-SSA + FastSAM
-paper: https://ieeexplore.ieee.org/document/11249315
+https://ieeexplore.ieee.org/document/11249315
 ## Installation
 
 To install the required dependencies, run the following command:
