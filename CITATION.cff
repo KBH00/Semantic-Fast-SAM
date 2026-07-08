@@ -1,0 +1,36 @@
+cff-version: "1.2.0"
+message: "If you use this software, please cite the paper listed in preferred-citation."
+type: software
+title: "Semantic-Fast-SAM"
+authors:
+  - family-names: "Kim"
+    given-names: "Byunghyun"
+repository-code: "https://github.com/KBH00/Semantic-Fast-SAM"
+url: "https://github.com/KBH00/Semantic-Fast-SAM"
+abstract: "Official implementation of Semantic-Fast-SAM, an efficient semantic segmentation framework combining FastSAM mask generation with semantic labeling."
+keywords:
+  - semantic segmentation
+  - segment anything
+  - FastSAM
+  - open-vocabulary segmentation
+  - CLIP
+  - computer vision
+
+preferred-citation:
+  type: conference-paper
+  title: "Semantic-Fast-SAM: Efficient Semantic Segmenter"
+  authors:
+    - family-names: "Kim"
+      given-names: "Byunghyun"
+  collection-title: "Proceedings of the 2025 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)"
+  collection-type: proceedings
+  conference:
+    name: "2025 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)"
+    location: "Singapore"
+  publisher:
+    name: "IEEE"
+  year: 2025
+  start: 1158
+  end: 1163
+  doi: "10.1109/APSIPAASC65261.2025.11249315"
+  url: "https://doi.org/10.1109/APSIPAASC65261.2025.11249315"
